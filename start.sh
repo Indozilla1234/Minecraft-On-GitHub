@@ -1,6 +1,16 @@
 #!/bin/bash
 echo "Clearing old data..."
 
+sudo apt update && \
+dpkg -s xvfb >/dev/null 2>&1 || sudo apt install -y xvfb && \
+dpkg -s openbox >/dev/null 2>&1 || sudo apt install -y openbox && \
+dpkg -s x11vnc >/dev/null 2>&1 || sudo apt install -y x11vnc && \
+dpkg -s python3-websockify >/dev/null 2>&1 || sudo apt install -y python3-websockify && \
+dpkg -s nodejs >/dev/null 2>&1 || sudo apt install -y nodejs && \
+dpkg -s npm >/dev/null 2>&1 || sudo apt install -y npm && \
+dpkg -s novnc >/dev/null 2>&1 || sudo apt install -y novnc
+
+
 # Kill old processes quietly
 pkill -f websockify 2>/dev/null
 pkill -f x11vnc 2>/dev/null
