@@ -1,9 +1,13 @@
 const { Client, Authenticator } = require('minecraft-launcher-core');
+
 const launcher = new Client();
-const version = "1.21.10" // change this to your desired version (also update java version)
+const version = "1.21.10"; // change this to your desired version (also update java version)
+
+// Automatically get GitHub username from environment
+const githubUsername = process.env.GITHUB_USER || process.env.USER || "UNKNOWN_USER";
 
 let opts = {
-    authorization: Authenticator.getAuth("TestPlayer"),
+    authorization: Authenticator.getAuth(githubUsername),
     root: "./minecraft",
     version: {
         number: version,
