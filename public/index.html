@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Java App in Browser</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noVNC/1.4.0/rfb.min.js"></script>
+  <style>
+    html, body { height: 100%; margin: 0; display: flex; justify-content: center; align-items: center; background: #222; }
+    #vnc { width: 1024px; height: 768px; border: 2px solid #555; }
+  </style>
+</head>
+<body>
+  <div id="vnc"></div>
+  <script>
+    const rfb = new RFB(document.getElementById('vnc'), 'ws://localhost:6080');
+    rfb.viewOnly = false; // Allow interaction
+    rfb.scaleViewport = true; // Fit display
+  </script>
+</body>
+</html>

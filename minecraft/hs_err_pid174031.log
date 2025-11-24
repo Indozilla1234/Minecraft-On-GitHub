@@ -1,0 +1,32 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x0000754cd6cc0881, pid=174031, tid=174032
+#
+# JRE version: OpenJDK Runtime Environment Microsoft-12574458 (21.0.9+10) (build 21.0.9+10-LTS)
+# Java VM: OpenJDK 64-Bit Server VM Microsoft-12574458 (21.0.9+10-LTS, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libc.so.6+0x18c881]
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport -p%p -s%s -c%c -d%d -P%P -u%u -g%g -F%F -- %E" (or dumping to /workspaces/Minecraft-GitHub-edition-attempt1/minecraft/core.174031)
+#
+# If you would like to submit a bug report, please visit:
+#   https://github.com/microsoft/openjdk/issues
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Djava.library.path=/workspaces/Minecraft-GitHub-edition-attempt1/minecraft -Xmx6G -Xms4G -Xss1M -Dorg.lwjgl.opengl.Display.allowSoftwareOpenGL=true -Dorg.lwjgl.system.allocator=system net.minecraft.client.main.Main --username TestPlayer --version 1.21.10 --gameDir /workspaces/Minecraft-GitHub-edition-attempt1/minecraft --assetsDir /workspaces/Minecraft-GitHub-edition-attempt1/minecraft/assets --assetIndex 1.21.10 --uuid 0493aeb9-d918-3b18-9d41-333fdfe9682e --accessToken 0493aeb9-d918-3b18-9d41-333fdfe9682e --clientId 0493aeb9-d918-3b18-9d41-333fdfe9682e --xuid 0493aeb9-d918-3b18-9d41-333fdfe9682e --versionType release
+
+Host: AMD EPYC 7763 64-Core Processor, 2 cores, 7G, Ubuntu 24.04.3 LTS
+Time: Mon Nov 24 02:15:48 2025 UTC elapsed time: 27.339891 seconds (0d 0h 0m 27s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000754cd002d510):  JavaThread "Render thread" [_thread_in_native, id=174032, stack(0x0000754cd53b0000,0x0000754cd54b0000) (1024K)]
+
+Stack: [0x0000754cd53b0000,0x0000754cd54b0000],  sp=0x0000754cd54ad758,  free space=1013k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [libc.so.6+0x18c881]
