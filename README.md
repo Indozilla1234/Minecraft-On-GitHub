@@ -1,8 +1,29 @@
 # RUNNING
-To run, use the template, and open in codespace, run sh start.sh in the terminal wait until port start showing up, go to port 6080 and press VNC.html, from there press connect and wait until Minecraft pops up, happing mining!
 
+To run the game:
 
+1. Open the template in GitHub Codespaces.
+2. Run `sh start.sh` in the terminal.
+3. Wait until the port starts showing up.
+4. Go to port `6080` and open `VNC.html`.
+5. Press **Connect** and wait for Minecraft to pop up.  
+   Happy mining! ⛏️
 
+---
 
-# IMPORTANT!
-# !!!NOT AN OFFICAL MOJANG PRODUCT! NOT AFFILIATED WITH MOJANG OR MICROSOFT! FOR THE REAL GAME GO TO MINECRAFT.NET!!!
+# IMPORTANT
+
+⚠️ **NOT AN OFFICIAL MOJANG PRODUCT!**  
+This project is **not affiliated with Mojang or Microsoft**.  
+For the official game, go to [minecraft.net](https://www.minecraft.net/).
+
+---
+
+# MODDING
+
+If someone can make this moddable, I would **GREATLY** appreciate it!  
+Feel free to contribute or suggest mods.
+
+---
+
+*Enjoy your chaotic terminal gaming experience!*
