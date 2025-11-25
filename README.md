@@ -24,6 +24,11 @@ For the official game, go to [minecraft.net](https://www.minecraft.net/).
 If someone can make this moddable, I would **GREATLY** appreciate it!  
 Feel free to contribute or suggest mods.
 
+
+
+# DISCLAIMER #
+it **WILL** be slower than a snail on a treadmill depending on your device. Since it runs on the **WEB** it is stupidly slow.
+
 ---
 
 *Enjoy your chaotic terminal gaming experience!*
