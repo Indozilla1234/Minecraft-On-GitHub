@@ -28,6 +28,8 @@ Feel free to contribute or suggest mods.
 
 # DISCLAIMER #
 it **WILL** be slower than a snail on a treadmill depending on your device. Since it runs on the **WEB** it is stupidly slow.
+# ALSO
+DO NOT USE WITHOUT BUYING MINECRAFT JAVA EDITION!
 
 ---
 
