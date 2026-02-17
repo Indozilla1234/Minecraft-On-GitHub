@@ -60,7 +60,7 @@ done
 
 # Start websockify ONLY after VNC port is confirmed open
 echo "Starting websockify..."
-websockify --web=/usr/share/novnc 448 localhost:5901 &
+websockify --web=/usr/share/novnc 443 localhost:5901 &
 
 # Run your Node app (Minecraft launcher)
 echo "Starting Minecraft..."
